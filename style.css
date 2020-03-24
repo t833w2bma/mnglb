@@ -1,0 +1,45 @@
+@charset "utf-8";
+body{font:1.5em "HiraginoSans-W3","ヒラギノ角ゴシック W0","メイリオ","Meiryo";color:#000;
+margin: 0;}
+.h1, h1 {font-size: 26px;} 
+h3 ,h2{ margin:55px 0 12px 10px;}
+#article{ margin: 0 12px;}
+img{max-width: 100%;}
+p{margin: 0 12px;line-height: 170%;}
+ul{margin-left: 22px;}
+li{margin-bottom: 60px;margin-left: 12px;}
+em{font-weight: bold;}
+.mokuji strong{margin-left: 12px}
+.text a{margin-left: 24px}
+.text p{line-height: 175%;margin-left: 20px;;}
+.text img,.kiji img,#text_area img,.junbi img{max-width: 700px;margin: 24px;box-shadow: 0px 3px 6px #aaa;}
+.text h2{margin-top: 55px}
+.text h4{margin-top: 35px}
+.text h3{margin-top: 25px; }
+
+.kiji{  background: #F0F0E8;padding: 20px;margin:15px 0 ;}
+.junbi ul{margin:40px;padding:20px; border:5px dashed #babaa8;}
+.junbi li{margin-bottom: 10px;margin-left: 12px;}
+.junbi img{display: block}
+ a img:hover{box-shadow: 0px 3px 6px #aaa;}
+.topics-container pre{font-size: 1em;background-color: inherit; border: none;}
+
+.kiji table img {
+  max-width: 200px; }
+
+
+@media screen and (max-width:746px) { 
+    /*　画面サイズが480pxからはここを読み込む　*/
+  .container {
+      padding-right: 2px;
+      padding-left: 2px;
+  }
+  .kiji {
+    padding: 2px;
+    margin: 3px;
+   }
+   ul {
+    margin-left: 4px;
+    } 
+    img{width: 100%;}
+}

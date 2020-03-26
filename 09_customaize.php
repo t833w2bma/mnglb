@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-
+<!-- test for pull request  -->
 
 <div class="box generalbox book_content"><h3>10 3-8.全幅スライドショウーとモバイル時の非表示</h3><div class="no-overflow"><p><br></p>
 <section id="matome">

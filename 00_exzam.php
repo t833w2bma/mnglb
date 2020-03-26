@@ -4,7 +4,9 @@
 			<div id="article">
 
 				<div class="title clearfix">
-					<h1>初心者でも簡単に作れるWordPressのホームページ作成方法</h1>
+					<h1>初心者でも簡単に作れるWordPressのホームページ作成方法
+						reject
+					</h1>
 				</div>
  
 				<div class="text">

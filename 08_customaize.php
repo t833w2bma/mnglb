@@ -100,8 +100,8 @@ jQuery("#category-posts-2 h3").eq(0).html("&lt;i class='fa fa-cutlery'>&lt;/i> &
       ドキュメントルートなら｢/wp/｣は消すだけでいいです｡<br>
       
  <pre class="wordwrap">#category-posts-3{
-background-image:url(/wp/wp-content/themes/simplicity2-child/images/dog-limited-90r.png), 
-url(/wp/wp-content/themes/simplicity2-child/images/curry-india-004.png);
+background-image:url(images/dog-limited-90r.png), 
+url(images/curry-india-004.png);
   background-repeat: no-repeat;
   background-position: 174px 48px, top left;
   padding: 21px 13px 0 22px;

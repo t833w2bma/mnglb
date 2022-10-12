@@ -1,64 +1,39 @@
 <?php include 'header.php'; ?>
 
-<div class="box generalbox book_content" id="yui_3_17_2_1_1474893097400_222"><h3>8 3-6.facebookの カレー屋さんの情報をサイドバーに表示する（facebook page pluginの設置)</h3><div class="no-overflow" id="yui_3_17_2_1_1474893097400_221"><p id="yui_3_17_2_1_1474893097400_220"><br></p>
+<div class="box generalbox book_content" id="yui_3_17_2_1_1474893097400_222"><h3>8 3-6.プラグインでInstagramの投稿を表示する</h3><div class="no-overflow" id="yui_3_17_2_1_1474893097400_221"><p id="yui_3_17_2_1_1474893097400_220"><br></p>
 <section id="fcebook">
 
-  <p> facebookのページ が一応あります、<br>
+  <p> Smash Balloon Social Photo Feed <br>
 
-  <a href="https://www.facebook.com/%E3%83%9E%E3%83%B3%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%96%E7%95%91%E3%81%AE%E3%81%A1%E3%81%84%E3%81%95%E3%81%AA%E3%82%AB%E3%83%AC%E3%83%BC%E5%B1%8B%E3%81%95%E3%82%93-126565234352010/?ref=page_internal">
-  <img src="gt07/face_search00.png" alt="">
-</a>
-    <br><br><br>こんな感じにしてみます。</p>
-  <img src="mt01/widget-left2.png" alt="カスタム ウィジェット facebook">
+      
+    <br><br><br>だいたいこんな感じにしてみます。<br>
+    ※Instagramにログインする必要があります
+    <a href="https://junpei-sugiyama.com/smash-balloon-instagram-feed/">ここからの抜粋</a>
+  </p>
+  <img src="mt01/smash-balloon-instagram-feed21-768x1111.jpg" alt="カスタム ウィジェット facebook">
   <section class="kiji">
     <ol>
-      <li>
-        facebookページの表示には、FacebookのWEBサイトに有る「Page Plugin」で簡単に行うことができます。<br>
-        まずは。リンクを開いてください。→ <em><a href="https://developers.facebook.com/docs/plugins/page-plugin" target="blank">Page Plugin</a></em>
-      </li>
-      <li>4箇所の入力BOXとチェックBOXで設定するだけです。
-        <br><em>コードが反映しないときはログインしてから取得してください</em><br>
-  <img src="mt01/widget-left20.png" alt="カスタム ウィジェット facebook">
-        <div id="page-plugin"><ol>
-          <li>入力BOXを変化させるとほぼリアルタイムでデモ画面が更新されます。</li>
-          <li>facebookページのURL</li>
-          <li>Tabsには初期値でtimelineが入ってますが、message と入れるとメッセージ送信フォームが、eventsにするとイベントの告知になります</li>
-          <li>幅高さは最小値最大値が決められているので、その間で指定</li>
-          <li>Use Small Header ヘッダーが縮小</li>
-          <li>Hide Cover Photo ヘッダの背景画像をなくす</li>
-          <li>Adapt to plugin container width 描画時の横幅を自動調整</li>
-          <li>Show Friend's 知り合いの写真が出ます</li>
-          <li>Get Code ボタンを押してソースコードをコピーしてください。</li>
-          <li>下段の2の方です。</li>
-        </ol>
-        </div>
-        <img src="gt07/face02.png" alt="page-plugin">
-      </li>
-      <li>「テキスト」とだけ書かれたウィジェットをサイドバーウィジェットにドロップしてください。<br>
-        サイドバーは2番めがいいでしょう。<br>
-        
-      </li>
-      <li>テキストBOXに貼り付け保存してください。<br>
-        <img src="gt07/face03.png" alt="page-plugin">
-        
-      </li>
-      <li>こんな感じになります
-       <br>
-        <img src="gt07/face05.png" alt="page-plugin">
-        
-      </li>
-      <li>横位置がずれているのでスタイルを一つ追加してください。
-        <pre>     /*Facebook*/
-  .widget_text {
-      margin-left: 16px;
-  }
-        </pre>
-        <i class="after"> </i> 横位置が整いました<br>
-        <img src="gt07/face06.png" alt="page-plugin">
-  
-      </li>
+        <li><img src="gt07/smash-balloon-instagram-feed02-1.jpg" alt="page-plugin">
+        <li><img src="gt07/smash-balloon-instagram-feed03-1.jpg" alt="page-plugin">
+        <li><img src="gt07/smash-balloon-instagram-feed04-1.jpg" alt="page-plugin">
+        <li><img src="gt07/smash-balloon-instagram-feed05-1.jpg" alt="page-plugin">
+        <li><img src="gt07/smash-balloon-instagram-feed07-1.jpg" alt="page-plugin">
+        <li><img src="gt07/smash-balloon-instagram-feed09-1.jpg" alt="page-plugin">
+        <li><img src="gt07/smash-balloon-instagram-feed08-1-768x1427.jpg" alt="page-plugin">
+        <li><img src="gt07/smash-balloon-instagram-feed11-1.jpg" alt="page-plugin">
+        <li><img src="gt07/smash-balloon-instagram-feed14-1.jpg" alt="page-plugin">
+        <li><img src="gt07/smash-balloon-instagram-feed15-1.jpg" alt="page-plugin">
+        <li><img src="gt07/smash-balloon-instagram-feed16-1.jpg" alt="page-plugin">
+        <li><img src="gt07/smash-balloon-instagram-feed18-1.jpg" alt="page-plugin">
+        <li><img src="gt07/smash-balloon-instagram-feed19-1-768x463.jpg" alt="page-plugin">
+        <li><img src="gt07/smash-balloon-instagram-feed20.jpg" alt="page-plugin">
       
-    <li>
+
+
+
+
+
+
       <h3 id="13">3-6-1.フッターエリアの充実</h3>
       <p>現在ウィジェットでフッターエリア左に住所が入っています。<br>
         これに追加して真ん中に地図、右にメニューを登録したいと思います。<br>

@@ -284,7 +284,7 @@
         更にメニュー全体をこんな感じに右寄せにし､幅も均等に｡
         <br>
         ボーダーも一番右にはついていないのでなんとかしてみましょう｡<br>
-        <img src="mt01/wordpress-simplicity-custom02.gif" alt="メニューのカスタマイズ後">
+        <img src="mt01/wordpress-simplicity-custom02.png" alt="メニューのカスタマイズ後">
         <br>
         <br>
         <pre>      #navi ul &gt; li {

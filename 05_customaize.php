@@ -227,43 +227,11 @@ prependメソッドは指定した要素の前に()内の文字を挿入する�
         <ol>
         	<li>色がついている li に対して 高さを指定する height: 130px  とか
         	  <img src="it05/ctwg131.png" alt="インライン要素">
-        	  </li>
-        	<li>画像を囲っている span には position : relative と top : 9px   くらい
-        	  <pre>
-  span.cat-post-crop {
-      position: relative;
-      top: 9px;
-  }
-        	  </pre>
-        	  </li>
-        	<li>画像が下にずれるのをネガティブマージンで調整する
-        	  <img src="it05/ctwg132.png" alt="インライン要素">
-        
-        	  <pre>
-  #category-posts-2-internal .cat-post-thumbnail .cat-post-crop img {
-    margin-top: -12px;
-  }
-
-  #category-posts-2-internal .cat-post-thumbnail {
-    margin: 0;
-  }
-/*上下の緑の余白を無くす*/
-  #category-posts-2-internal .cat-post-item {
-    margin: 8px 0;
-    padding: 0;
-  }
-  /*個別記事のサムネイルがたてに伸ばされるので75にする*/
-  .related-entry-thumb img {
-    height: 75px;
-  }
-
-        	  </pre>
-        	  </li>
+          </li>
         </ol>
         
 
         
-        なくなりました。
         <br>
         <img src="it05/ctwg14.png" alt="margin">
       </li>

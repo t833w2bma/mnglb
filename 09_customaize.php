@@ -10,52 +10,7 @@
  
   <section class="kiji">
     <ol>
-      <li>はじめに全幅に対応させるため、サイズを大きくします。<br>
-    管理画面→Meta Slider から 幅→2680 、高さ→910<br>
-    <img src="et09/slide02.png" alt="">
-    </li>
       <li>
-        つぎは固定ページの編集です  <br>
-        スライダーのショートコードをタグで囲ってください。<br>
-        <pre>        &lt;div id="parentslider"&gt;[metaslider id=91]&lt;/div&gt;
-        </pre>
-        固定位置の枠を作ってその中に画像を配置することでブラウザサイズの変化に対応させます。<br>
-           <img src="et09/slide03.png" alt=""><br>「更新」ボタンをおしてください。
-    
-      </li>
-      <li>
-        次にスタイルです<br>
-        外観 →テーマの編集 → スタイルシート
-    <pre><span>/*スライダーを固定位置*/</span>
-  div#parentslider{
-      position: absolute; <span>/*位置を絶対位置指定*/</span>
-      z-index: 0;  <span>/*背面に来るように最小値指定*/</span>
-      overflow: hidden; <span>/*ボックスからはみ出した部分を表示しない*/</span>
-      height: 310px;
-      width:100%; 
-      top: 213px;  <span>/*座標指定*/</span>
-      left:0;
-  }
-
-#main{ <span>/*NEWSが下に潜り込まないように追加*/</span>
-  margin-top: 325px;
-  }
-  
-.widget {
-    position: relative; <span>/*ウィジェットが下に潜り込まないように*/</span>
-    z-index: 2;   <span>/*relativeで固定位置指定、z-indexは数字が大きいほど前面*/</span>
-}
-       </pre>
-       <i class="after"> </i><em>pc幅は完成</em><br>
-       <img src="et09/slide01.png" alt="pc幅" title="pc幅"><br>
-       
- もしこんな感じに映っていたら、adminbarを非表示にしてください。<br>
-adminbarは管理者がダッシュボードにログインしていると表示されます、一般閲覧者には表示されません。<br>
-管理画面→ ユーザー →編集→ □サイトを見るときに・・・のチェックをOFFに。<br>
- <img src="et09/slide041.png" alt="adminbarを非表示に2">
- 
- 
- 
        
        <div class="topics-container topics_width">
         <h2>TOPICS 位置を指定するpositionプロパティ</h2>
@@ -80,8 +35,8 @@ adminbarは管理者がダッシュボードにログインしていると表示
   
        </div>
       
-      
       </li>
+      
       <li>
         <h4>次はモバイル幅でスライダーを消します。</h4><br>
        <img src="et09/slide05.png" alt="モバイル幅" title="モバイル幅"><br>
